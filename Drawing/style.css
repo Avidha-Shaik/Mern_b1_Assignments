@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mountains{
+    display: flex;
+    background-color: skyblue;
+    justify-content: space-between;
+    /* position: absolute; */
+}
+.mountain{
+    height:0;
+    position: relative;
+    width:0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 400px solid #6E5849;
+    border-radius: 10px;
+    /* z-index: 1; */
+
+   
+}
+.sun{
+    position:absolute;
+    /* margin-left: -200px; */
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    height:150px;
+    width: 150px;
+
+    border-radius: 50%;
+    background-color: #FFA500;
+    /* position: relative; */
+    /* z-index: 999; */
+}
+.grass{
+    margin-top: -190px;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: #228B22;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center;align-items: center; */
+    /* flex-direction: column; */
+
+}
+.river {
+    height: 400px;
+    width:200px;
+    background:#0077BE;
+}
+#r1{
+    margin-right: 20px;
+    border-radius: 70% 60% 15% 15%;
+}
+.house{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    margin-top: 60px;
+}
+
+.top{
+    height: 0;
+    width: 0;
+   
+    border-left: 100px solid transparent;
+    border-right:100px solid transparent ;
+    border-bottom: 100px solid rgb(238, 59, 59);
+}
+.rainbow{
+    /* position: absolute; */
+    /* background: #000;
+    height: 500px;
+    width:500px; */
+    border-radius:50% ;
+    margin-top: 180px;
+
+    
+}
+.center-r{
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.c1{
+    height:400px;
+    width: 400px;
+    background-color: red;
+    border-radius: 50%;
+
+}
+.c2{
+    height:350px;
+    width: 350px;
+    background-color: orange;
+    border-radius: 50%;
+}
+.c3{
+    height:300px;
+    width: 300px;
+    background-color:yellow;
+    border-radius: 50%;
+}
+.c4{
+    height:250px;
+    width: 250px;
+    background-color:green;
+    border-radius: 50%;
+}
+.c5{
+    height:200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.c6{
+    height:150px;
+    width: 150px;
+    background-color:indigo;
+    border-radius: 50%;
+}
+.c7{
+    height:100px;
+    width: 100px;
+    background-color: violet;
+    border-radius: 50%;
+}
+.c8{
+    height:50px;
+    width: 50px;
+    background-color:white;
+    border-radius: 50%;
+}
+
+
+
+.walls{
+    height:100px;
+    width:200px;
+    background: #07c8ea;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.door{
+    margin-top: 50px;
+    height: 50px;
+    width:30px;
+    background:blue;
+}
